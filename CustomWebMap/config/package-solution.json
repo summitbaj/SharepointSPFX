@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "custom-web-map-client-side-solution",
+    "id": "fd281d1c-29e2-4ada-9a94-bf058341ef44",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "CustomWebMap description"
+      },
+      "longDescription": {
+        "default": "CustomWebMap description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "custom-web-map Feature",
+        "description": "The feature that activates elements of the custom-web-map solution.",
+        "id": "934769d8-1dec-4fae-a0f1-9e7454d3e663",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/custom-web-map.sppkg"
+  }
+}

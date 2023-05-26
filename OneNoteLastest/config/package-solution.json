@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "one-note-lastest-client-side-solution",
+    "id": "afb998fb-544a-403e-bbb9-57a068568a4b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "one-note-lastest description"
+      },
+      "longDescription": {
+        "default": "one-note-lastest description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "one-note-lastest Feature",
+        "description": "The feature that activates elements of the one-note-lastest solution.",
+        "id": "a9e036df-1416-4a59-ab74-f6074f207ef5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/one-note-lastest.sppkg"
+  }
+}

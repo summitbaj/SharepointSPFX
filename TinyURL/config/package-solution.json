@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "tiny-url-generator-client-side-solution",
+    "id": "1c1514da-ad86-4d93-9b3d-d44417eb360c",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "TinyURL Generator description"
+      },
+      "longDescription": {
+        "default": "TinyURL Generator description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "tiny-url-generator Feature",
+        "description": "The feature that activates elements of the tiny-url-generator solution.",
+        "id": "4d7674a5-78e5-4b99-ab48-71770d64113c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/tiny-url-generator.sppkg"
+  }
+}

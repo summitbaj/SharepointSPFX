@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.13.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.0",
+    "libraryName": "tiny-url-generator",
+    "libraryId": "1c1514da-ad86-4d93-9b3d-d44417eb360c",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "TinyURL Generator",
+    "solutionShortDescription": "TinyURL Generator description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

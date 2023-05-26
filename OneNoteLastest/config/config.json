@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "one-note-latest-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/oneNoteLatestWebpart/OneNoteLatestWebPart.js",
+          "manifest": "./src/webparts/oneNoteLatestWebpart/OneNoteLatestWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OneNoteLatestWebPartStrings": "lib/webparts/oneNoteLatestWebpart/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "recent-notebook-viewer-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/recentNotebookViewer/RecentNotebookViewerWebPart.js",
+          "manifest": "./src/webparts/recentNotebookViewer/RecentNotebookViewerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RecentNotebookViewerWebPartStrings": "lib/webparts/recentNotebookViewer/loc/{locale}.js"
+  }
+}

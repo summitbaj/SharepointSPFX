@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "open-last-modified-client-side-solution",
+    "id": "e5a8e50d-5e34-4218-8633-04d87415d45b",
+    "version": "1.0.0.1",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "OpenLastModified description"
+      },
+      "longDescription": {
+        "default": "OpenLastModified description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "open-last-modified Feature",
+        "description": "The feature that activates elements of the open-last-modified solution.",
+        "id": "a8640be3-fd91-4ad4-b847-ffe4461b5706",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/open-last-modified.sppkg"
+  }
+}

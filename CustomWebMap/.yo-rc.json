@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.16.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "custom-web-map",
+    "libraryId": "fd281d1c-29e2-4ada-9a94-bf058341ef44",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "CustomWebMap",
+    "solutionShortDescription": "CustomWebMap description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

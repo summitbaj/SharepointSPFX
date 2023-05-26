@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "open-last-modified-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/openLastModifiedWebpart/OpenLastModifiedWebpartWebPart.js",
+          "manifest": "./src/webparts/openLastModifiedWebpart/OpenLastModifiedWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OpenLastModifiedWebpartWebPartStrings": "lib/webparts/openLastModifiedWebpart/loc/{locale}.js"
+  }
+}

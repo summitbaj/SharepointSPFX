@@ -1,0 +1,21 @@
+declare interface IRecentNotebookViewerWebPartStrings {
+  PropertyPaneDescription: string;
+  BasicGroupName: string;
+  DescriptionFieldLabel: string;
+  ImgSrcLabel: string;
+  SiteURLLabel: string;
+  FolderLocation: string;
+  AppLocalEnvironmentSharePoint: string;
+  AppLocalEnvironmentTeams: string;
+  AppLocalEnvironmentOffice: string;
+  AppLocalEnvironmentOutlook: string;
+  AppSharePointEnvironment: string;
+  AppTeamsTabEnvironment: string;
+  AppOfficeEnvironment: string;
+  AppOutlookEnvironment: string;
+}
+
+declare module 'RecentNotebookViewerWebPartStrings' {
+  const strings: IRecentNotebookViewerWebPartStrings;
+  export = strings;
+}

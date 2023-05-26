@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "recent-notebook-viewer-client-side-solution",
+    "id": "39189696-0bbe-4276-a9a5-fd92da9876fb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Recent Notebook Viewer description"
+      },
+      "longDescription": {
+        "default": "Recent Notebook Viewer description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "recent-notebook-viewer Feature",
+        "description": "The feature that activates elements of the recent-notebook-viewer solution.",
+        "id": "1a7aed79-2add-4833-96cd-f375b304a1e9",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/recent-notebook-viewer.sppkg"
+  }
+}
